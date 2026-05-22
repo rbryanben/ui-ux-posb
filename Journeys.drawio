@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="s6YccCpZefW9FBpWI-6P" name="Page-1">
-        <mxGraphModel dx="2454" dy="824" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="3927" dy="1464" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -1335,12 +1335,6 @@
                 <mxCell id="479" value="Buy for Self / Other" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="140" y="2420" width="120" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="482" value="Journey for preferences notification" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;align=left;" parent="1" vertex="1">
-                    <mxGeometry x="880" y="2160" width="250" height="80" as="geometry"/>
-                </mxCell>
-                <mxCell id="483" value="Todo" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-                    <mxGeometry x="875" y="2108" width="50" height="30" as="geometry"/>
-                </mxCell>
                 <mxCell id="488" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="484" target="487" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
@@ -1497,6 +1491,14 @@
                 <mxCell id="532" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="531" target="510" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
+                <mxCell id="689" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="531" target="688">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="690" value="OnOtherDocument()" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="689">
+                    <mxGeometry x="0.0899" y="1" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
                 <mxCell id="531" value="Select Document Type" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="-560" y="4740" width="120" height="40" as="geometry"/>
                 </mxCell>
@@ -1579,6 +1581,17 @@
                 </mxCell>
                 <mxCell id="593" value="OnSehdulePayment()" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="592">
                     <mxGeometry x="0.5031" y="-2" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="680" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=none;rounded=0;" edge="1" parent="1" source="576" target="679">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="681" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;rounded=0;curved=0;" edge="1" parent="1" source="576" target="679">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="682" value="OnDocumentVault()" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="681">
+                    <mxGeometry x="0.9585" y="-1" relative="1" as="geometry">
                         <mxPoint as="offset"/>
                     </mxGeometry>
                 </mxCell>
@@ -1885,6 +1898,32 @@
                 </mxCell>
                 <mxCell id="674" value="List Payments" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
                     <mxGeometry x="-780" y="6140" width="130" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="684" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="679" target="683">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="679" value="Identification / Employment / Address / Other" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="-1090" y="5920" width="140" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="687" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="683" target="686">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="683" value="List Types" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="-1090" y="6010" width="140" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="685" value="&lt;div&gt;&lt;b&gt;Personal Documents&amp;nbsp;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;National Id&lt;/div&gt;&lt;div&gt;Passport&lt;/div&gt;&lt;div&gt;Drivers License&amp;nbsp;&lt;/div&gt;&lt;div&gt;Other&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Employment Documents&lt;/b&gt;&lt;/div&gt;&lt;div&gt;Confirmation of Employment&lt;/div&gt;&lt;div&gt;Payslip&lt;/div&gt;&lt;div&gt;Other&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Address Documents&lt;/b&gt;&lt;/div&gt;&lt;div&gt;Proof of Residence&lt;/div&gt;&lt;div&gt;Other&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Other Documents&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;Letter of Undertaking&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="-1275" y="5880" width="170" height="260" as="geometry"/>
+                </mxCell>
+                <mxCell id="686" value="View Documents (With Expiry)" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="-1090" y="6090" width="140" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="691" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;rounded=0;curved=0;" edge="1" parent="1" source="688">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="-500" y="4820" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="688" value="Enter Document Type" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="-840" y="4740" width="120" height="40" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
